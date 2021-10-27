@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: spring-cloud-registry-service
+  cloud:
+    config:
+      uri: http://localhost:8888
+      username: root
+      password: s3cr3t
+
+server:
+  port: 8761
+
+eureka:
+  client:
+    register-with-eureka: false
